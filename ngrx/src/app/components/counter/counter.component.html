@@ -1,0 +1,10 @@
+<div class="counter d-flex">
+  <div class="label-container">
+    <label>{{ count$ | async }}</label>
+  </div>
+  <div class="controls">
+    <button class="btn btn-outline-primary" (click)="decrement()">Decrement</button>
+    <button class="btn btn-outline-primary" (click)="reset()">Reset</button>
+    <button class="btn btn-outline-primary" (click)="increment()">Increment</button>
+  </div>
+</div>
