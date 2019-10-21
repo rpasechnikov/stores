@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Store } from '@ngrx/store';
+import { CounterQuery } from 'src/app/queries/counter.query';
 
 @Component({
   selector: 'app-counter-history',
@@ -11,10 +11,10 @@ export class CounterHistoryComponent implements OnInit {
   count$: Observable<number>;
   items: any[] = [];
 
-  constructor(private store: Store<{ test: number }>) {}
+  constructor(private counterQuery: CounterQuery) {}
 
   ngOnInit(): void {
-    this.store.subscribe(state => {
+    this.counterQuery.select().subscribe(state => {
       if (this.items.length > 20) {
         this.items.shift();
       }
