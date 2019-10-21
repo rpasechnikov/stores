@@ -10,6 +10,7 @@ https://www.npmjs.com/package/@ngrx/store
 
 Currently the most popular Angular state management library
 
+- Angular state management frameworkd
 - Moderate learning curve
 - Lots of plumbing code
 - Great tooling
@@ -25,6 +26,7 @@ https://netbasal.gitbook.io/akita/core-concepts/store
 https://github.com/datorama/akita/
 https://www.npmjs.com/package/@datorama/akita
 
+- JavaScript state management library
 - Simple to learn
 - Less plumbing code
 - Feels _more native_ due to it's usage pattern involving simple services
