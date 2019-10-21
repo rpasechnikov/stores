@@ -1,6 +1,6 @@
 # Simple evaluation of NgRx vs Akita
 
-# NgRx
+## NgRx
 
 https://ngrx.io/guide/store
 
@@ -10,7 +10,7 @@ Currently the most popular Angular state management library
 - Lots of plumbing code
 - Great tooling
 
-# Akita
+## Akita
 
 https://netbasal.gitbook.io/akita/core-concepts/store
 
